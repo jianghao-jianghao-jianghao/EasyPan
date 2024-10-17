@@ -1,0 +1,721 @@
+2024-10-17 08:04:54 [INFO][com.easypan.EasyPanApplication][logStarting][55]-> Starting EasyPanApplication using Java 1.8.0_422 on JIANGHAO with PID 3184 (D:\apache-maven-3.9.1\easypan\target\classes started by 蒋浩 in D:\apache-maven-3.9.1\easypan)
+2024-10-17 08:04:54 [INFO][com.easypan.EasyPanApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-17 08:04:54 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-17 08:04:54 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-17 08:04:54 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-10-17 08:04:55 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:04:55 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:04:55 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-17 08:04:55 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-17 08:04:55 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-17 08:04:55 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1095 ms
+2024-10-17 08:04:56 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:04:56 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 8080 (http) with context path '/api'
+2024-10-17 08:04:56 [INFO][com.easypan.EasyPanApplication][logStarted][61]-> Started EasyPanApplication in 2.677 seconds (JVM running for 3.41)
+2024-10-17 08:04:56 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-10-17 08:04:56 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-10-17 08:04:57 [ERROR][com.easypan.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-10-17 08:05:01 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:05:01 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:05:01 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-10-17 08:05:09 [WARN][org.apache.catalina.connector.Request][log][173]-> Creating the temporary upload location [C:\Users\蒋浩\AppData\Local\Temp\tomcat.8080.6057457982655767105\work\Tomcat\localhost\api\log\temp] as it is required by the servlet [dispatcherServlet]
+2024-10-17 08:07:49 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6eb0be49 (The last packet successfully received from the server was 159,560 milliseconds ago. The last packet sent successfully to the server was 159,561 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:07:49 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32d5539a (The last packet successfully received from the server was 173,022 milliseconds ago. The last packet sent successfully to the server was 173,022 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:07:49 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59fcf17f (The last packet successfully received from the server was 173,018 milliseconds ago. The last packet sent successfully to the server was 173,018 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:07:49 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e4255af (The last packet successfully received from the server was 173,016 milliseconds ago. The last packet sent successfully to the server was 173,016 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:07:49 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68b0cbea (The last packet successfully received from the server was 173,013 milliseconds ago. The last packet sent successfully to the server was 173,013 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:09:38 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/register,错误信息:
+com.easypan.exception.BusinessException: 图片验证码不正确
+2024-10-17 08:13:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@688a3721 (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:13:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d2463b1 (The last packet successfully received from the server was 366,924 milliseconds ago. The last packet sent successfully to the server was 366,924 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:13:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d388c15 (The last packet successfully received from the server was 366,923 milliseconds ago. The last packet sent successfully to the server was 366,923 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:13:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b297ac (The last packet successfully received from the server was 366,921 milliseconds ago. The last packet sent successfully to the server was 366,921 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:13:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11cf6705 (The last packet successfully received from the server was 366,919 milliseconds ago. The last packet sent successfully to the server was 366,919 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:16:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b9c4a4 (The last packet successfully received from the server was 180,011 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:16:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7cbb96a6 (The last packet successfully received from the server was 180,010 milliseconds ago. The last packet sent successfully to the server was 180,010 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:16:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46222dd0 (The last packet successfully received from the server was 180,008 milliseconds ago. The last packet sent successfully to the server was 180,008 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:16:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e765d54 (The last packet successfully received from the server was 180,006 milliseconds ago. The last packet sent successfully to the server was 180,006 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:16:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2916f7ce (The last packet successfully received from the server was 180,005 milliseconds ago. The last packet sent successfully to the server was 180,005 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:19:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6283d0db (The last packet successfully received from the server was 180,024 milliseconds ago. The last packet sent successfully to the server was 180,024 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:19:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37913982 (The last packet successfully received from the server was 180,026 milliseconds ago. The last packet sent successfully to the server was 180,026 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:19:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7424c3cc (The last packet successfully received from the server was 180,027 milliseconds ago. The last packet sent successfully to the server was 180,027 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:19:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@85dc09b (The last packet successfully received from the server was 180,027 milliseconds ago. The last packet sent successfully to the server was 180,027 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:19:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b2509b1 (The last packet successfully received from the server was 180,028 milliseconds ago. The last packet sent successfully to the server was 180,028 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:22:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37aef3a9 (The last packet successfully received from the server was 180,012 milliseconds ago. The last packet sent successfully to the server was 180,013 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:22:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@220a47cd (The last packet successfully received from the server was 180,013 milliseconds ago. The last packet sent successfully to the server was 180,013 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:22:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74a9b074 (The last packet successfully received from the server was 180,012 milliseconds ago. The last packet sent successfully to the server was 180,012 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:22:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@345a26f3 (The last packet successfully received from the server was 180,012 milliseconds ago. The last packet sent successfully to the server was 180,012 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:22:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68b14bfb (The last packet successfully received from the server was 180,011 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:25:39 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61b1ac3e (The last packet successfully received from the server was 163,076 milliseconds ago. The last packet sent successfully to the server was 163,076 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:25:39 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@793b4fca (The last packet successfully received from the server was 163,077 milliseconds ago. The last packet sent successfully to the server was 163,077 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:25:39 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26099812 (The last packet successfully received from the server was 163,076 milliseconds ago. The last packet sent successfully to the server was 163,076 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:25:39 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a3510b1 (The last packet successfully received from the server was 163,076 milliseconds ago. The last packet sent successfully to the server was 163,076 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:25:39 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@571a9aca (The last packet successfully received from the server was 163,074 milliseconds ago. The last packet sent successfully to the server was 163,074 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:28:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2662d6e1 (The last packet successfully received from the server was 180,004 milliseconds ago. The last packet sent successfully to the server was 180,004 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:28:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69af137 (The last packet successfully received from the server was 196,939 milliseconds ago. The last packet sent successfully to the server was 196,939 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:28:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@375d84e3 (The last packet successfully received from the server was 196,937 milliseconds ago. The last packet sent successfully to the server was 196,937 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:28:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7388937 (The last packet successfully received from the server was 196,936 milliseconds ago. The last packet sent successfully to the server was 196,936 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:28:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@785ad615 (The last packet successfully received from the server was 196,934 milliseconds ago. The last packet sent successfully to the server was 196,934 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:31:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72b9603c (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,010 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:31:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fcfbc37 (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:31:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72213f2d (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:31:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ba019d5 (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:31:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23302e9a (The last packet successfully received from the server was 180,008 milliseconds ago. The last packet sent successfully to the server was 180,008 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:34:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a5f879a (The last packet successfully received from the server was 180,014 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:34:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@531cfbee (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:34:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72c7e33a (The last packet successfully received from the server was 180,014 milliseconds ago. The last packet sent successfully to the server was 180,014 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:34:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34e2d9af (The last packet successfully received from the server was 180,014 milliseconds ago. The last packet sent successfully to the server was 180,014 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:34:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17c6bf61 (The last packet successfully received from the server was 180,013 milliseconds ago. The last packet sent successfully to the server was 180,013 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:37:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ea21c93 (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,016 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:37:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e301c0a (The last packet successfully received from the server was 180,016 milliseconds ago. The last packet sent successfully to the server was 180,016 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:37:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42020a35 (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:37:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3cbac062 (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:37:56 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cdfc57b (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:38:38 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-10-17 08:38:38 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2024-10-17 08:38:41 [INFO][com.easypan.EasyPanApplication][logStarting][55]-> Starting EasyPanApplication using Java 1.8.0_422 on JIANGHAO with PID 20308 (D:\apache-maven-3.9.1\easypan\target\classes started by 蒋浩 in D:\apache-maven-3.9.1\easypan)
+2024-10-17 08:38:41 [INFO][com.easypan.EasyPanApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-17 08:38:41 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-17 08:38:41 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-17 08:38:41 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-10-17 08:38:42 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:38:42 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:38:42 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-17 08:38:42 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-17 08:38:42 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-17 08:38:42 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 945 ms
+2024-10-17 08:38:43 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:38:43 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 8080 (http) with context path '/api'
+2024-10-17 08:38:43 [INFO][com.easypan.EasyPanApplication][logStarted][61]-> Started EasyPanApplication in 2.128 seconds (JVM running for 3.225)
+2024-10-17 08:38:43 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-10-17 08:38:43 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-10-17 08:38:43 [ERROR][com.easypan.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-10-17 08:38:50 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:38:50 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:38:50 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-10-17 08:38:50 [WARN][org.apache.catalina.connector.Request][log][173]-> Creating the temporary upload location [C:\Users\蒋浩\AppData\Local\Temp\tomcat.8080.3604595622451508083\work\Tomcat\localhost\api\log\temp] as it is required by the servlet [dispatcherServlet]
+2024-10-17 08:38:50 [WARN][org.apache.catalina.connector.Request][log][173]-> Creating the temporary upload location [C:\Users\蒋浩\AppData\Local\Temp\tomcat.8080.3604595622451508083\work\Tomcat\localhost\api\log\temp] as it is required by the servlet [dispatcherServlet]
+2024-10-17 08:38:50 [WARN][org.apache.catalina.connector.Request][log][173]-> Failed to create the upload location [C:\Users\蒋浩\AppData\Local\Temp\tomcat.8080.3604595622451508083\work\Tomcat\localhost\api\log\temp]
+2024-10-17 08:41:28 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=2m44s962ms75µs500ns).
+2024-10-17 08:42:24 [ERROR][com.easypan.aspect.GlobalOperationAspect][interceptorDo][79]-> 全局拦截器异常
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:24 [ERROR][com.easypan.aspect.GlobalOperationAspect][interceptorDo][79]-> 全局拦截器异常
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:24 [ERROR][com.easypan.controller.ABaseController][readFile][81]-> 读取文件异常
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:688)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:388)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:366)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at com.easypan.controller.ABaseController.readFile(ABaseController.java:77)
+	at com.easypan.controller.AccountController.getAvatar(AccountController.java:196)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$887eb984.getAvatar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:84)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 70 common frames omitted
+2024-10-17 08:42:28 [ERROR][com.easypan.controller.ABaseController][readFile][87]-> IO异常
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252)
+	at org.apache.catalina.connector.CoyoteOutputStream.close(CoyoteOutputStream.java:157)
+	at com.easypan.controller.ABaseController.readFile(ABaseController.java:85)
+	at com.easypan.controller.AccountController.getAvatar(AccountController.java:196)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$887eb984.getAvatar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:84)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 69 common frames omitted
+2024-10-17 08:42:40 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/file/loadDataList,错误信息:
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:40 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/getUseSpace,错误信息:
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:40 [ERROR][com.easypan.controller.ABaseController][readFile][81]-> 读取文件异常
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:688)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:388)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:366)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at com.easypan.controller.ABaseController.readFile(ABaseController.java:77)
+	at com.easypan.controller.AccountController.getAvatar(AccountController.java:196)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$887eb984.getAvatar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:84)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 70 common frames omitted
+2024-10-17 08:42:40 [ERROR][com.easypan.controller.ABaseController][readFile][87]-> IO异常
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:353)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:783)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:252)
+	at org.apache.catalina.connector.CoyoteOutputStream.close(CoyoteOutputStream.java:157)
+	at com.easypan.controller.ABaseController.readFile(ABaseController.java:85)
+	at com.easypan.controller.AccountController.getAvatar(AccountController.java:196)
+	at com.easypan.controller.AccountController$$FastClassBySpringCGLIB$$40c53b7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.easypan.controller.AccountController$$EnhancerBySpringCGLIB$$887eb984.getAvatar(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:586)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:530)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:547)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:84)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:194)
+	at org.apache.coyote.Response.doWrite(Response.java:615)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:340)
+	... 69 common frames omitted
+2024-10-17 08:42:40 [ERROR][com.easypan.aspect.GlobalOperationAspect][interceptorDo][79]-> 全局拦截器异常
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:40 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/getUseSpace,错误信息:
+com.easypan.exception.BusinessException: 登录超时，请重新登录
+2024-10-17 08:42:40 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5692356f (The last packet successfully received from the server was 237,618 milliseconds ago. The last packet sent successfully to the server was 237,619 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:42:40 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fa5ba91 (The last packet successfully received from the server was 237,530 milliseconds ago. The last packet sent successfully to the server was 237,530 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:42:40 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48dbdf47 (The last packet successfully received from the server was 237,531 milliseconds ago. The last packet sent successfully to the server was 237,531 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:42:40 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6104e92c (The last packet successfully received from the server was 237,531 milliseconds ago. The last packet sent successfully to the server was 237,531 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:42:40 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34be9370 (The last packet successfully received from the server was 237,530 milliseconds ago. The last packet sent successfully to the server was 237,530 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:42:40 [WARN][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][434]-> Failure in @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:310)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:273)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1187)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1009)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:719)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:709)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:573)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:221)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1205)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:306)
+	... 57 common frames omitted
+2024-10-17 08:42:40 [WARN][org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver][doResolveHandlerMethodException][434]-> Failure in @ExceptionHandler com.easypan.controller.AGlobalExceptionHandlerController#handleException(Exception, HttpServletRequest)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:310)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:273)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1187)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1009)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:135)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1363)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:766)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:719)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:709)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:573)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.flush(IdentityOutputFilter.java:117)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:221)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1205)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:306)
+	... 57 common frames omitted
+2024-10-17 08:42:41 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-10-17 08:42:41 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2024-10-17 08:42:56 [INFO][com.easypan.EasyPanApplication][logStarting][55]-> Starting EasyPanApplication using Java 1.8.0_422 on JIANGHAO with PID 5156 (D:\apache-maven-3.9.1\easypan\target\classes started by 蒋浩 in D:\apache-maven-3.9.1\easypan)
+2024-10-17 08:42:56 [INFO][com.easypan.EasyPanApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-17 08:42:56 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-17 08:42:56 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-17 08:42:56 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-10-17 08:42:57 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:42:57 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:42:57 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-17 08:42:57 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-17 08:42:57 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-17 08:42:57 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1132 ms
+2024-10-17 08:42:58 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:42:58 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 8080 (http) with context path '/api'
+2024-10-17 08:42:58 [INFO][com.easypan.EasyPanApplication][logStarted][61]-> Started EasyPanApplication in 2.591 seconds (JVM running for 3.366)
+2024-10-17 08:42:58 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-10-17 08:42:58 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-10-17 08:42:59 [ERROR][com.easypan.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-10-17 08:43:03 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17 08:43:03 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-10-17 08:43:03 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-10-17 08:43:14 [WARN][org.apache.catalina.connector.Request][log][173]-> Creating the temporary upload location [C:\Users\蒋浩\AppData\Local\Temp\tomcat.8080.25866013468327413\work\Tomcat\localhost\api\log\temp] as it is required by the servlet [dispatcherServlet]
+2024-10-17 08:44:34 [WARN][com.zaxxer.hikari.pool.HikariPool][run][788]-> HikariCPDatasource - Thread starvation or clock leap detected (housekeeper delta=1m717ms279µs200ns).
+2024-10-17 08:44:43 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/login,错误信息:
+com.easypan.exception.BusinessException: 图片验证码不正确
+2024-10-17 08:44:46 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/login,错误信息:
+com.easypan.exception.BusinessException: 图片验证码不正确
+2024-10-17 08:44:46 [ERROR][com.easypan.controller.AGlobalExceptionHandlerController][handleException][25]-> 请求错误，请求地址http://localhost:8080/api/login,错误信息:
+com.easypan.exception.BusinessException: 图片验证码不正确
+2024-10-17 08:44:55 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-10-17 08:44:55 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2024-10-17 08:44:59 [INFO][com.easypan.EasyPanApplication][logStarting][55]-> Starting EasyPanApplication using Java 1.8.0_422 on JIANGHAO with PID 16668 (D:\apache-maven-3.9.1\easypan\target\classes started by 蒋浩 in D:\apache-maven-3.9.1\easypan)
+2024-10-17 08:44:59 [INFO][com.easypan.EasyPanApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-17 08:45:00 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-17 08:45:00 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-17 08:45:00 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-10-17 08:45:00 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 8080 (http)
+2024-10-17 08:45:00 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:45:00 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-17 08:45:00 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-17 08:45:00 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-17 08:45:00 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 938 ms
+2024-10-17 08:45:01 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-8080"]
+2024-10-17 08:45:01 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 8080 (http) with context path '/api'
+2024-10-17 08:45:01 [INFO][com.easypan.EasyPanApplication][logStarted][61]-> Started EasyPanApplication in 2.067 seconds (JVM running for 2.703)
+2024-10-17 08:45:01 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-10-17 08:45:01 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-10-17 08:45:02 [ERROR][com.easypan.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-10-17 08:48:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d139c43 (The last packet successfully received from the server was 180,019 milliseconds ago. The last packet sent successfully to the server was 180,019 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:48:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39cd76ef (The last packet successfully received from the server was 179,922 milliseconds ago. The last packet sent successfully to the server was 179,922 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:48:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@383d1411 (The last packet successfully received from the server was 179,920 milliseconds ago. The last packet sent successfully to the server was 179,920 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:48:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54bc1f48 (The last packet successfully received from the server was 179,917 milliseconds ago. The last packet sent successfully to the server was 179,917 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:48:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ae0e00 (The last packet successfully received from the server was 179,913 milliseconds ago. The last packet sent successfully to the server was 179,913 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:51:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6cb6139 (The last packet successfully received from the server was 180,017 milliseconds ago. The last packet sent successfully to the server was 180,017 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:51:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4693aeae (The last packet successfully received from the server was 180,016 milliseconds ago. The last packet sent successfully to the server was 180,016 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:51:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23a329c2 (The last packet successfully received from the server was 180,012 milliseconds ago. The last packet sent successfully to the server was 180,013 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:51:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e3c5626 (The last packet successfully received from the server was 180,011 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:51:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7bbf7d6 (The last packet successfully received from the server was 180,011 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:54:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6651102a (The last packet successfully received from the server was 180,006 milliseconds ago. The last packet sent successfully to the server was 180,006 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:54:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@221dba69 (The last packet successfully received from the server was 180,005 milliseconds ago. The last packet sent successfully to the server was 180,005 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:54:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@480b853c (The last packet successfully received from the server was 180,003 milliseconds ago. The last packet sent successfully to the server was 180,003 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:54:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26b51c57 (The last packet successfully received from the server was 180,001 milliseconds ago. The last packet sent successfully to the server was 180,001 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:54:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5bb502c6 (The last packet successfully received from the server was 180,000 milliseconds ago. The last packet sent successfully to the server was 180,000 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:57:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e5b9307 (The last packet successfully received from the server was 180,015 milliseconds ago. The last packet sent successfully to the server was 180,015 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:57:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48a3ecdf (The last packet successfully received from the server was 180,017 milliseconds ago. The last packet sent successfully to the server was 180,017 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:57:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b35206f (The last packet successfully received from the server was 180,007 milliseconds ago. The last packet sent successfully to the server was 180,007 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:57:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9a443a5 (The last packet successfully received from the server was 180,006 milliseconds ago. The last packet sent successfully to the server was 180,006 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 08:57:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c13837a (The last packet successfully received from the server was 180,005 milliseconds ago. The last packet sent successfully to the server was 180,005 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:00:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22d7e592 (The last packet successfully received from the server was 180,007 milliseconds ago. The last packet sent successfully to the server was 180,008 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:00:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63a6df50 (The last packet successfully received from the server was 180,006 milliseconds ago. The last packet sent successfully to the server was 180,007 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:00:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4370a3c6 (The last packet successfully received from the server was 180,005 milliseconds ago. The last packet sent successfully to the server was 180,005 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:00:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e16354f (The last packet successfully received from the server was 180,003 milliseconds ago. The last packet sent successfully to the server was 180,003 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:00:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3141b4de (The last packet successfully received from the server was 180,001 milliseconds ago. The last packet sent successfully to the server was 180,001 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:03:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22e05035 (The last packet successfully received from the server was 180,014 milliseconds ago. The last packet sent successfully to the server was 180,014 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:03:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71681f47 (The last packet successfully received from the server was 180,016 milliseconds ago. The last packet sent successfully to the server was 180,016 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:03:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@508e2fea (The last packet successfully received from the server was 180,017 milliseconds ago. The last packet sent successfully to the server was 180,017 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:03:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@704fac36 (The last packet successfully received from the server was 180,018 milliseconds ago. The last packet sent successfully to the server was 180,018 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:03:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@208757b9 (The last packet successfully received from the server was 180,020 milliseconds ago. The last packet sent successfully to the server was 180,020 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:06:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d575e5c (The last packet successfully received from the server was 180,010 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:06:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11d3c459 (The last packet successfully received from the server was 180,011 milliseconds ago. The last packet sent successfully to the server was 180,011 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:06:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2674bb1 (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:06:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@545401f (The last packet successfully received from the server was 180,007 milliseconds ago. The last packet sent successfully to the server was 180,007 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:06:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d4c2d1b (The last packet successfully received from the server was 180,005 milliseconds ago. The last packet sent successfully to the server was 180,005 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:09:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ab038d3 (The last packet successfully received from the server was 180,008 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:09:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79821177 (The last packet successfully received from the server was 180,010 milliseconds ago. The last packet sent successfully to the server was 180,010 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:09:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d2b584b (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:09:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@56f6819d (The last packet successfully received from the server was 180,009 milliseconds ago. The last packet sent successfully to the server was 180,009 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
+2024-10-17 09:09:01 [WARN][com.zaxxer.hikari.pool.PoolBase][isConnectionAlive][184]-> HikariCPDatasource - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5fe90b1 (The last packet successfully received from the server was 180,008 milliseconds ago. The last packet sent successfully to the server was 180,008 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.). Possibly consider using a shorter maxLifetime value.
